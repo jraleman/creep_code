@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Creep Code - awaken the constellation</title>
+  <desc>One ancient circular stage transforms beneath six rising stars. Floating solar crystals, brass rings, old stone and candlelight surround a small keeper.</desc>
+  <defs>
+    <linearGradient id="night" x2="0" y2="1">
+      <stop stop-color="#080c16"/><stop offset="1" stop-color="#29364d"/>
+    </linearGradient>
+    <linearGradient id="stone" x2=".7" y2="1">
+      <stop stop-color="#858995"/><stop offset="1" stop-color="#343d51"/>
+    </linearGradient>
+    <linearGradient id="gold" x2="1" y2="1">
+      <stop stop-color="#f6dea0"/><stop offset="1" stop-color="#8b653c"/>
+    </linearGradient>
+    <linearGradient id="crystal" x2="1" y2="1">
+      <stop stop-color="#d4f2fa"/><stop offset=".5" stop-color="#88b9f0"/><stop offset="1" stop-color="#5262aa"/>
+    </linearGradient>
+    <radialGradient id="magic">
+      <stop stop-color="#587cac" stop-opacity=".65"/><stop offset="1" stop-color="#263556" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fire">
+      <stop stop-color="#ffc786" stop-opacity=".5"/><stop offset="1" stop-color="#ffc786" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#night)"/>
+  <circle cx="600" cy="239" r="280" fill="url(#magic)"/>
+  <path d="M120 438V361Q120 97 600 24Q1080 97 1080 361V438" fill="none" stroke="#343d51" stroke-width="48"/>
+  <path d="M123 438V361Q123 99 600 27Q1077 99 1077 361V438" fill="none" stroke="#b28b50" stroke-width="3"/>
+  <g fill="url(#stone)" stroke="#202839" stroke-width="4">
+    <path d="M110 213H168V481H110ZM1032 213H1090V481H1032Z"/>
+    <path d="M100 215L139 165L178 215ZM1022 215L1061 165L1100 215Z"/>
+    <path d="M110 270H168M110 328H168M110 386H168M110 444H168M1032 270H1090M1032 328H1090M1032 386H1090M1032 444H1090"/>
+  </g>
+  <g fill="#80543f" stroke="#b28b50" stroke-width="3">
+    <path d="M115 245H163V378L139 362L115 378Z"/><path d="M1037 245H1085V378L1061 362L1037 378Z"/>
+  </g>
+  <ellipse cx="600" cy="533" rx="476" ry="75" fill="#080c16" opacity=".8"/>
+  <path d="M138 429V482C138 552 345 604 600 604S1062 552 1062 482V429Z" fill="#30394b" stroke="#18202e" stroke-width="4"/>
+  <ellipse cx="600" cy="441" rx="462" ry="120" fill="url(#stone)" stroke="#a39679" stroke-width="6"/>
+  <ellipse cx="600" cy="441" rx="418" ry="97" fill="#586171" stroke="#b28b50" stroke-width="3"/>
+  <g fill="none" stroke="#30394b" stroke-width="4">
+    <path d="M226 399H974M187 439H1013M222 482H978M365 351L322 522M511 347L497 536M689 347L703 536M835 351L878 522"/>
+    <path d="M289 449L317 464L305 477M810 392L796 409L813 421M686 513L663 522L671 534"/>
+  </g>
+  <g fill="none" stroke="#88b9f0" opacity=".65">
+    <ellipse cx="600" cy="441" rx="339" ry="73" stroke-width="3"/>
+    <ellipse cx="600" cy="441" rx="303" ry="61" stroke-width="2"/>
+    <path d="M261 441H303M897 441H939M600 365V387M600 495V518" stroke-width="5"/>
+  </g>
+  <path d="M338 174L470 76L730 76L862 174L730 248L470 248Z" fill="#5262aa" fill-opacity=".06" stroke="url(#gold)" stroke-width="3"/>
+  <g fill="#f6dea0">
+    <path d="M0-25L6-6L25 0L6 6L0 25L-6 6L-25 0L-6-6Z" transform="translate(338 174)"/>
+    <path d="M0-25L6-6L25 0L6 6L0 25L-6 6L-25 0L-6-6Z" transform="translate(470 76)"/>
+    <path d="M0-25L6-6L25 0L6 6L0 25L-6 6L-25 0L-6-6Z" transform="translate(730 76)"/>
+    <path d="M0-25L6-6L25 0L6 6L0 25L-6 6L-25 0L-6-6Z" transform="translate(862 174)"/>
+    <path d="M0-25L6-6L25 0L6 6L0 25L-6 6L-25 0L-6-6Z" transform="translate(730 248)"/>
+    <path d="M0-25L6-6L25 0L6 6L0 25L-6 6L-25 0L-6-6Z" transform="translate(470 248)"/>
+  </g>
+  <g fill="none" stroke="#b28b50" stroke-width="4">
+    <circle cx="338" cy="174" r="36"/><circle cx="470" cy="76" r="36"/><circle cx="730" cy="76" r="36"/>
+    <circle cx="862" cy="174" r="36"/><circle cx="730" cy="248" r="36"/><circle cx="470" cy="248" r="36"/>
+    <ellipse cx="600" cy="228" rx="100" ry="25" transform="rotate(-26 600 228)"/>
+    <ellipse cx="600" cy="228" rx="100" ry="25" transform="rotate(56 600 228)"/>
+    <circle cx="600" cy="228" r="57"/>
+  </g>
+  <path d="M600 177L624 227L600 272L576 227Z" fill="url(#crystal)" stroke="#d4f2fa" stroke-width="3"/>
+  <path d="M411 425Q553 241 811 164" fill="none" stroke="#88b9f0" stroke-width="3" stroke-dasharray="3 13" opacity=".7"/>
+  <g fill="#f6dea0" stroke="#b28b50" stroke-width="2">
+    <path d="M798 177L812 198L798 221L784 198Z"/>
+  </g>
+  <ellipse cx="602" cy="450" rx="216" ry="32" fill="#17243b" opacity=".8"/>
+  <g fill="url(#crystal)" stroke="#bed9fa" stroke-width="3">
+    <path d="M416 417L394 385L416 340L438 385Z"/>
+    <path d="M489 405L463 350L489 270L515 350Z"/>
+    <path d="M562 404L534 333L562 254L590 333Z"/>
+    <path d="M635 401L609 352L635 286L661 352Z"/>
+    <path d="M708 418L686 384L708 329L730 384Z"/>
+    <path d="M781 418L759 390L781 356L803 390Z"/>
+  </g>
+  <path d="M449 435V302L676 302V435M449 318H676" fill="none" stroke="url(#gold)" stroke-width="8"/>
+  <path d="M449 302L483 289H709L676 302M676 435L709 421V289" fill="none" stroke="#b28b50" stroke-width="5"/>
+  <g fill="#c8c5b7" stroke="#292e3a" stroke-width="3">
+    <ellipse cx="337" cy="471" rx="34" ry="12" fill="#273344"/>
+    <path d="M317 421H350L359 464H308Z" fill="#475c78"/>
+    <circle cx="334" cy="400" r="24"/>
+    <path d="M306 389L333 371L363 389Z" fill="#745b43"/>
+    <circle cx="324" cy="400" r="9" fill="#9bcce5"/><circle cx="346" cy="400" r="9" fill="#9bcce5"/>
+  </g>
+  <circle cx="188" cy="354" r="106" fill="url(#fire)"/><circle cx="1012" cy="354" r="106" fill="url(#fire)"/>
+  <g fill="#b28b50" stroke="#714d32" stroke-width="4">
+    <path d="M178 448V379H198V448ZM1002 448V379H1022V448Z"/>
+  </g>
+  <g fill="#ffe6b4">
+    <path d="M188 327Q167 361 188 381Q209 361 188 327Z"/>
+    <path d="M1012 327Q991 361 1012 381Q1033 361 1012 327Z"/>
+    <circle cx="247" cy="271" r="3"/><circle cx="958" cy="260" r="4"/><circle cx="424" cy="202" r="3"/>
+    <circle cx="781" cy="280" r="3"/><circle cx="889" cy="407" r="3"/><circle cx="315" cy="337" r="2"/>
+  </g>
+</svg>

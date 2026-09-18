@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Creep Code - the astral key</title>
+  <desc>A sapphire key suspended in an ancient brass and stone arch, above six restored seals.</desc>
+  <defs>
+    <linearGradient id="stone" x2=".7" y2="1">
+      <stop stop-color="#747988"/><stop offset=".5" stop-color="#343c50"/><stop offset="1" stop-color="#1c2230"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" x2="1" y2="1">
+      <stop stop-color="#ffe4a3"/><stop offset=".45" stop-color="#b28b50"/><stop offset="1" stop-color="#6c4b31"/>
+    </linearGradient>
+    <radialGradient id="portal">
+      <stop stop-color="#45688e"/><stop offset=".7" stop-color="#1c304d"/><stop offset="1" stop-color="#0d111a"/>
+    </radialGradient>
+    <linearGradient id="gem" x2=".8" y2="1">
+      <stop stop-color="#e9f8ff"/><stop offset=".5" stop-color="#88b9f0"/><stop offset="1" stop-color="#5274bf"/>
+    </linearGradient>
+  </defs>
+  <path d="M79 18H433L494 79V433L433 494H79L18 433V79Z" fill="#0d111a" stroke="#b28b50" stroke-width="12"/>
+  <path d="M87 38H425L474 87V425L425 474H87L38 425V87Z" fill="url(#stone)" stroke="#4c5364" stroke-width="4"/>
+  <path d="M99 401V226C99 139 190 85 256 52C322 85 413 139 413 226V401Z" fill="url(#brass)"/>
+  <path d="M126 400V226C126 155 204 108 256 79C308 108 386 155 386 226V400Z" fill="url(#portal)" stroke="#171e2e" stroke-width="8"/>
+  <path d="M146 390V231C146 170 209 126 256 99C303 126 366 170 366 231V390" fill="none" stroke="#88b9f0" stroke-width="3" opacity=".55"/>
+  <g fill="#91918b" stroke="#343c50" stroke-width="5">
+    <path d="M87 242H127V294H87ZM87 299H127V351H87ZM87 356H127V407H87Z"/>
+    <path d="M385 242H425V294H385ZM385 299H425V351H385ZM385 356H425V407H385Z"/>
+  </g>
+  <g fill="none" stroke="#f0c77a">
+    <circle cx="256" cy="263" r="91" stroke-width="5" opacity=".7"/>
+    <ellipse cx="256" cy="263" rx="116" ry="39" transform="rotate(-27 256 263)" stroke-width="7"/>
+    <path d="M256 149V164M256 362V377M141 263H157M355 263H371" stroke-width="7"/>
+  </g>
+  <path d="M245 285H267V370H293V391H267V413H245Z" fill="url(#brass)" stroke="#171e2e" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M256 164L311 250L256 316L201 250Z" fill="url(#gem)" stroke="#d6eeff" stroke-width="5"/>
+  <path d="M256 164V266L201 250ZM256 266L311 250L256 316Z" fill="#5274bf" opacity=".6"/>
+  <path d="M256 164L240 243L201 250M240 243L256 266L311 250" fill="none" stroke="#f0faff" stroke-width="4" opacity=".8"/>
+  <path d="M73 408H162M350 408H439" stroke="url(#brass)" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#88b9f0" stroke="#f0c77a" stroke-width="5">
+    <circle cx="129" cy="439" r="10"/><circle cx="179" cy="450" r="10"/><circle cx="230" cy="455" r="10"/>
+    <circle cx="282" cy="455" r="10"/><circle cx="333" cy="450" r="10"/><circle cx="383" cy="439" r="10"/>
+  </g>
+  <g fill="#f6e6c8">
+    <path d="M181 127L185 139L197 143L185 147L181 159L177 147L165 143L177 139Z"/>
+    <path d="M342 166L346 178L358 182L346 186L342 198L338 186L326 182L338 178Z"/>
+    <circle cx="328" cy="116" r="4"/><circle cx="179" cy="342" r="4"/>
+  </g>
+</svg>
