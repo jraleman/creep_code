@@ -25,8 +25,10 @@ All six mechanisms receive a short demonstration within those 15 seconds.
 It inherits the regular intro's centered subtitle, skip button and progress
 track, over a full-width 3D view. There is no narrative side panel.
 The collection keeps its shared intro and discovers this game automatically.
-An original astral-key icon brands the title screen; a matching ritual poster
-appears in the picker and instructions. There is no prerecorded walkthrough.
+An original astral-key icon brands the title screen. The picker and instructions
+use a 64-second captioned recording of a complete six-relic ritual, with a
+matching still poster. It shows paused hints, genuine selections and confirms,
+natural stage transitions and the final constellation, not an edited slideshow.
 
 | Default | Action |
 | --- | --- |
@@ -358,6 +360,7 @@ the initial interval of a shaft. These combinations are not shipped here.
 | `world/observatory.gd` / `.tscn` | Persistent stage, actual-mesh/number picking, animation and local lights |
 | `ui/ritual_hud.gd` | Compact bottom actions, persistent clue captions and an on-demand grimoire |
 | `ui/outfit_preview.gd` / `.tscn` | Isolated 3D outfit portrait, turntable and native preview framing |
+| `tools/tutorial_driver.gd`, `assets/video/` | Deterministic, development-only tutorial driver and shipped Theora recording/poster |
 
 The **Puzzle Manager** has the reusable singleton/autoload role, but is mounted
 once under this game's gameplay root rather than registered in `project.godot`.
@@ -424,6 +427,14 @@ All meaningful sounds request captions, and information always has
 a number, word or shape.
 
 ## Checks
+
+Re-record the walkthrough from `godot-base` with
+`pwsh tools\record_tutorials.ps1 -Godot godot -Games creep_code`.
+The recorder isolates saves and reserves a caption inset in the live layout;
+ordinary play keeps a zero inset. The driver uses the real selection, movement
+and confirm paths, including a four-probe listening search and remembered stair
+costs. It rejects a take unless all six relics finish without a failed attempt
+and the paused hint book was opened and closed.
 
 From `godot-base`, run one at a time:
 

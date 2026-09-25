@@ -25,7 +25,8 @@ static func manifest() -> GameManifest:
 	game.store_slots = OPTIONS.STORE_SLOTS
 	game.store_currency = OPTIONS.STORE_CURRENCY
 	game.store_preview_scene_path = "res://games/creep_code/ui/outfit_preview.tscn"
-	game.tutorial_poster_path = "res://games/creep_code/assets/tutorial_poster.svg"
+	game.tutorial_video_path = "res://games/creep_code/assets/video/tutorial.ogv"
+	game.tutorial_poster_path = "res://games/creep_code/assets/video/tutorial_poster.webp"
 	game.stats_url = "https://deskcansaw.com"
 	game.achievements = {
 		"creep_code_sunrail": {

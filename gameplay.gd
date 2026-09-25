@@ -33,6 +33,7 @@ var _message := ""
 var _feedback_kind := &""
 var _completed_expedition := false
 var _point_awarded := false
+var _capture_inset := 0.0
 
 
 ## This identity is the only link the shared framework needs to discover us.
@@ -622,6 +623,11 @@ func _set_intense_effects_enabled(value: bool) -> void:
 		_view.set_intense_effects(value)
 
 
+func _set_capture_inset(bottom: float) -> void:
+	_capture_inset = maxf(bottom, 0.0)
+	_resize_world.call_deferred()
+
+
 func _resize_world() -> void:
 	if not is_instance_valid(_ritual_hud):
 		return
@@ -639,7 +645,8 @@ func _resize_world() -> void:
 	_time_caption.add_theme_font_size_override("font_size", roundi(12 * units))
 	var top_bar := _player_one_card.get_parent() as Control
 	var top := maxf(TOP_CLEARANCE, top_bar.get_combined_minimum_size().y + 64)
-	var field := _ritual_hud.layout_for(size, top + 8)
+	var available := Vector2(size.x, maxf(top + 1.0, size.y - _capture_inset))
+	var field := _ritual_hud.layout_for(available, top + 8)
 	_container.position = field.position
 	_container.size = field.size
 	_stage_input.position = field.position
